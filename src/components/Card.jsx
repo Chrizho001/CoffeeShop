@@ -22,7 +22,7 @@ const Card = ({coffee, index}) => {
                 </p>
                 <div className="flex justify-between items-center py-4">
                   <span className="text-2xl font-semibold text-black">&#8358;{coffee.price}</span>
-                  <button className="bg-black/80 rounded-full text-primary font-semibold text-sm w-[120px] py-3">
+                  <button className="bg-black/80 rounded-full text-white font-semibold text-sm w-[120px] py-3">
                         Order Now
                   </button>
                 </div>

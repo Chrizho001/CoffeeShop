@@ -4,7 +4,6 @@ import coffee2 from "../assets/coffee2.png";
 import coffee3 from "../assets/coffee3.png";
 
 const coffeeMenu = [
-    
     {
         image: coffee2,
         name: "Caramel Latte",
@@ -32,20 +31,19 @@ const BestSelling = () => {
     return (
         <section className="mt-[100px] py-4 w-full">
             <div className="container mx-auto flex flex-col gap-8 items-center">
-                <div className="flex flex-col items-center gap-4">
+                <div className="flex flex-col items-center justify-center sm:px-3 gap-4">
                     <h1 className="font-bold text-4xl lg:text-6xl leading-normal tracking-normal">
                         Best Selling Coffee
                     </h1>
-                    <p className="text-sm font-normal tracking-normal text-center w-[350px] lg:text-md py-3">
-                        A drink from{" "}
-                        <span className="text-primary">Blvk Tumbler</span> to
-                        get you going all day long. Leaving fresh, vigorous and
-                        active.
+                    <p className="text-sm font-normal tracking-normal sm:px-4 text-center lg:w-[500px] lg:text-md ">
+                        Discover the coffee that everyone is raving about! From
+                        rich, bold espressos to creamy, dreamy lattes, these
+                        customer favorites are crafted to perfection.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 gap-8 lg:mt-10 place-content-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 py-4 gap-[30px] md:gap-7 lg:gap-x-8 lg:mt-10 justify-between place-content-center">
                     {coffeeMenu.map((coffee, index) => (
-                        <Card key={index} coffee={coffee} index ={index} />
+                        <Card key={index} coffee={coffee} index={index} />
                     ))}
                 </div>
             </div>

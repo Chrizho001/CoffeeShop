@@ -10,20 +10,17 @@ export default {
         lightOrange: "#f1dabf",
         lightGray: "#272c35",
       },
+      fontFamily: {
+        Poppins : ['Poppins', 'serif'],
+        Raleway : ['Raleway', 'serif'],
+      }
     },
     container: {
       center: true, // Ensures the container is always centered
       padding: {
         sm: "2rem",
       },
-      // screens: {
-      //   sm: '600px',
-      //   md: '750px',
-      //   lg: '1000px',
-      //   xl: '1200px',
-      //   '2xl': '1400px',
-     
-      //  }
+      
     }
   },
   plugins: [],
