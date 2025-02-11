@@ -25,10 +25,10 @@ const Footer = () => {
                             <span className="text-primary">Coders </span> Coffee
                         </h2>
                         <p className="text-sm text-lightOrange leading-6">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Dignissimos, reprehenderit magni suscipit
-                            perferendis minima eligendi excepturi eveniet, harum
-                            officia
+                            Brewing perfection, one cup at a time! At <span className="text-primary">CODERS COFFEE</span>, we pour passion into every blend,
+                            ensuring every sip is rich, smooth, and
+                            unforgettable. Thank you for making us your favorite
+                            coffee spot
                         </p>
                     </div>
                     <div>
