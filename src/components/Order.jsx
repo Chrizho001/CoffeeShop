@@ -28,7 +28,7 @@ const Order = () => {
                         alt=""
                     />
                 </div>
-                <div className="flex flex-col  justify-center w-[400px] md:w-[600px] gap-4 px-4 ">
+                <div className="flex flex-col  justify-center w-[400px] md:w-[600px] gap-4 px-8 ">
                     <motion.h1
                         initial={{ opacity: 0, y: 100 }}
                         whileInView={{
@@ -64,7 +64,7 @@ const Order = () => {
                         viewport={{
                             once: true,
                         }}
-                        className="text-sm md:text-md text-darkGrey leading-loose font-normal lg:w-full"
+                        className="text-sm  md:text-md text-darkGrey leading-loose font-normal lg:w-full"
                     >
                         Your Perfect Cup Awaits – Whether You Crave a Bold
                         Espresso, a Creamy Latte, or a Sweet Mocha, We’ve Got

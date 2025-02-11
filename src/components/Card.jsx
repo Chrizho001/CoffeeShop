@@ -11,7 +11,7 @@ const Card = ({ coffee, index }) => {
                     type: "spring",
                     stiffness: 100,
                     damping: 10,
-                    delay: 0.1 * index + 1,
+                    delay: 0.1 * index ,
                 },
             }}
             viewport={{
