@@ -4,7 +4,6 @@ import coffeeBlack from "../assets/black.png";
 import Navbar from "./Navbar";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
-
 const bgImage = {
     backgroundImage: `url(${heroImage})`,
     backgroundSize: "cover",
@@ -75,7 +74,7 @@ const Hero = () => {
                         </h1>
                     </div>
                 </div>
-                
+
                 {/* side bar */}
                 {isOpen && (
                     <div className="absolute top-0 right-0 h-screen w-[110px] overflow-y-auto  bg-gradient-to-b from-primary/80 to to-primaryDark/80 backdrop:blur-sm z-10">

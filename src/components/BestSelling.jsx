@@ -29,8 +29,8 @@ const coffeeMenu = [
 
 const BestSelling = () => {
     return (
-        <section className="mt-[100px] py-4 w-full">
-            <div className="container mx-auto flex flex-col gap-8 items-center">
+        <section className="mt-[70px] py-4 w-full">
+            <div className="container mx-auto flex flex-col gap-8">
                 <div className="flex flex-col items-center justify-center sm:px-3 gap-4">
                     <h1 className="font-bold text-4xl lg:text-6xl leading-normal tracking-normal">
                         Best Selling Coffee
@@ -41,7 +41,7 @@ const BestSelling = () => {
                         customer favorites are crafted to perfection.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 py-4 gap-[30px] md:gap-7 lg:gap-x-8 lg:mt-10 justify-between place-content-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 py-4 gap-[30px] md:gap-7 lg:gap-x-[0px] place-items-center lg:mt-10 items-center">
                     {coffeeMenu.map((coffee, index) => (
                         <Card key={index} coffee={coffee} index={index} />
                     ))}

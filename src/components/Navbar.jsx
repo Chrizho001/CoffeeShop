@@ -7,7 +7,7 @@ const Navbar = ({ setIsOpen, isOpen }) => {
             <div className="container mx-auto flex flex-row items-center justify-between">
                 <div>
                     <h1 className="text-2xl font-semibold uppercase">
-                        <span className="text-primary">Obsidan </span> Coffee
+                        <span className="text-primary">Coders </span> Coffee
                     </h1>
                 </div>
                 <div onClick={() => setIsOpen(!isOpen)}>

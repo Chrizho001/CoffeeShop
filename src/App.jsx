@@ -2,6 +2,9 @@ import Hero from "./components/Hero"
 import Order from "./components/Order"
 import BestSelling from "./components/BestSelling"
 import Download from "./components/Download"
+import Reviews from "./components/Reviews"
+import Footer from "./components/Footer"
+
 
 const App = () => {
   return (
@@ -10,6 +13,8 @@ const App = () => {
       <Order />
       <BestSelling />
       <Download />
+      <Reviews />
+      <Footer />
     </div>
   )
 }
